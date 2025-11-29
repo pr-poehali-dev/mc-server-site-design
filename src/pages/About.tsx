@@ -84,7 +84,7 @@ const About = () => {
               style={{ animationDelay: '0.2s' }}
             >
               <img
-                src="https://cdn.poehali.dev/projects/322d36d3-8ebc-41ee-b2ce-831aec7a63c8/files/3f1212dd-1ae0-40d6-8400-bd31c408dfa7.jpg"
+                src="https://cdn.poehali.dev/projects/322d36d3-8ebc-41ee-b2ce-831aec7a63c8/files/901c593c-af11-4b4d-aad4-7d10ba2a1d32.jpg"
                 alt="Dragon Craft Server"
                 className="w-full h-full object-cover"
               />

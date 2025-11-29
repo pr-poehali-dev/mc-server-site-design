@@ -72,7 +72,7 @@ const Map = () => {
             <div
               className="w-full h-96 bg-cover bg-center relative"
               style={{
-                backgroundImage: `url('https://cdn.poehali.dev/projects/322d36d3-8ebc-41ee-b2ce-831aec7a63c8/files/4995b459-8ba8-41c7-a02a-cd3697737e4e.jpg')`,
+                backgroundImage: `url('https://cdn.poehali.dev/projects/322d36d3-8ebc-41ee-b2ce-831aec7a63c8/files/3a5e0670-808c-4582-85bf-64946903514d.jpg')`,
               }}
             >
               <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
