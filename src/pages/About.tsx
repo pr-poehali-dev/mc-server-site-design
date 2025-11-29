@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
@@ -40,13 +40,13 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <Header />
 
       <section className="pt-32 pb-20 bg-gradient-to-b from-background to-card">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              О сервере DragonDawn
+              О Dragon Craft
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               История создания самого атмосферного и технологичного Minecraft сервера
@@ -57,7 +57,7 @@ const About = () => {
             <div className="space-y-6 animate-fade-in">
               <h2 className="text-3xl font-bold">Наша миссия</h2>
               <p className="text-muted-foreground text-lg">
-                DragonDawn был создан с целью предоставить игрокам уникальный опыт в мире Minecraft. 
+                Dragon Craft был создан с целью предоставить игрокам уникальный опыт в мире Minecraft. 
                 Мы стремимся создать дружелюбное комьюнити, где каждый может найти что-то для себя.
               </p>
               <p className="text-muted-foreground text-lg">

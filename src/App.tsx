@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Rules from "./pages/Rules";
 import Advice from "./pages/Advice";
 import Map from "./pages/Map";
+import Donate from "./pages/Donate";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,7 +26,7 @@ const App = () => (
           <Route path="/rules" element={<Rules />} />
           <Route path="/advice" element={<Advice />} />
           <Route path="/map" element={<Map />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/donate" element={<Donate />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
