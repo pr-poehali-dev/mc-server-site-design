@@ -85,7 +85,7 @@ const About = () => {
             >
               <img
                 src="https://cdn.poehali.dev/projects/322d36d3-8ebc-41ee-b2ce-831aec7a63c8/files/3f1212dd-1ae0-40d6-8400-bd31c408dfa7.jpg"
-                alt="DragonDawn Server"
+                alt="Dragon Craft Server"
                 className="w-full h-full object-cover"
               />
             </div>

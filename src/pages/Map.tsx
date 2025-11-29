@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Card } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -55,13 +55,13 @@ const Map = () => {
 
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <Header />
 
       <section className="pt-32 pb-20 bg-gradient-to-b from-background to-card">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Карта мира DragonDawn
+              Карта мира Dragon Craft
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Исследуйте огромный мир с уникальными локациями и возможностями
@@ -188,7 +188,7 @@ const Map = () => {
               <div className="relative w-48 h-48 bg-gradient-to-br from-primary via-secondary to-accent rounded-2xl flex items-center justify-center group cursor-pointer hover:scale-105 transition-transform">
                 <Icon name="Map" size={80} className="text-white group-hover:scale-110 transition-transform" />
                 <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-background px-4 py-2 rounded-full text-sm whitespace-nowrap">
-                  map.dragondawn.ru
+                  map.dragoncraft.ru
                 </div>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Card } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -52,7 +52,7 @@ const Rules = () => {
 
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <Header />
 
       <section className="pt-32 pb-20 bg-gradient-to-b from-background to-card">
         <div className="container mx-auto px-4">

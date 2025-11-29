@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -68,7 +68,7 @@ const Advice = () => {
 
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <Header />
 
       <section className="pt-32 pb-20 bg-gradient-to-b from-background to-card">
         <div className="container mx-auto px-4">
@@ -89,12 +89,12 @@ const Advice = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-3">Приветствие от основателя</h3>
                 <p className="text-muted-foreground text-lg mb-4">
-                  Привет! Я MrVoldex, основатель DragonDawn. За годы работы над сервером я собрал 
+                  Привет! Я MrVoldex, основатель Dragon Craft. За годы работы над сервером я собрал 
                   множество полезных советов, которые помогут вам быстрее освоиться и добиться успеха. 
                   Эти рекомендации основаны на опыте тысяч игроков нашего комьюнити.
                 </p>
                 <p className="text-muted-foreground italic">
-                  "Помните: в DragonDawn нет предела совершенству. Каждый день - это возможность стать лучше!"
+                  "Помните: в Dragon Craft нет предела совершенству. Каждый день - это возможность стать лучше!"
                 </p>
               </div>
             </div>
